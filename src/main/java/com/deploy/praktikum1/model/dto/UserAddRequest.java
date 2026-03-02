@@ -4,6 +4,6 @@ import lombok.Data;
 
 @Data
 public class UserAddRequest {
-    private String nanme;
+    private String name;
     private int age;
 }
