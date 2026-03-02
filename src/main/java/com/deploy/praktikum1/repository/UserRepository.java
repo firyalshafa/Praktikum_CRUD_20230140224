@@ -1,7 +1,7 @@
 package com.deploy.praktikum1.repository;
 
-import org.apache.catalina.User;
+import com.deploy.praktikum1.model.entity.User;  // ✅ Ganti import ini
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface UserRepository extends JpaRepository<User,String> {
+public interface UserRepository extends JpaRepository<User, String> {
 }
