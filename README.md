@@ -40,7 +40,7 @@ Request Body :
 ```json
 {
   "nama" : "caca",
-  "usia" : 22
+  "usia" : 21
 }
 ```
 
@@ -51,7 +51,7 @@ Response Body (success) :
   "data": {
     "id" : "random string",
     "nama": "caca",
-    "usia": 22
+    "usia": 21
   }
 }
 ```
@@ -74,7 +74,7 @@ Response Body (success) :
   "data": {
     "id" : "random string",
     "nama": "caca",
-    "usia": 22
+    "usia": 21
   }
 "data": {
     "id" : "random string",
